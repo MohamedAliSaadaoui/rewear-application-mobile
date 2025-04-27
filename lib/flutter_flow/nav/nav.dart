@@ -44,6 +44,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: SplashWidget.routeName,
           path: SplashWidget.routePath,
           builder: (context, params) => SplashWidget(),
+        ),
+        FFRoute(
+          name: SigninWidget.routeName,
+          path: SigninWidget.routePath,
+          builder: (context, params) => SigninWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
