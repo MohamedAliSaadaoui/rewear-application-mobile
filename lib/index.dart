@@ -7,3 +7,4 @@ export '/forgot_password/forgot_password_widget.dart' show ForgotPasswordWidget;
 export '/resetpasswordnotification/resetpasswordnotification_widget.dart'
     show ResetpasswordnotificationWidget;
 export '/aboutinfo/aboutinfo_widget.dart' show AboutinfoWidget;
+export '/home/home_widget.dart' show HomeWidget;
